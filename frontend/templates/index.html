@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaCure — Advanced Molecular Biology Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Premium Stylesheet -->
+    <link rel="stylesheet" href="/src/styles/main.css">
+    
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <!-- Mol* (MolStar) for Protein Visualization -->
+    <link rel="stylesheet" type="text/css" href="/static/molstar/molstar.css" />
+    <script src="/static/molstar/molstar.js"></script>
+</head>
+<body>
+    
+    <!-- Global Loading Overlay -->
+    <div id="global-loader" class="loader-overlay" style="display:none;">
+        <div class="halo-loader">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" opacity="0.15"/>
+                <path d="M12 2a10 10 0 0 1 10 10"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- background grid & interactive particle system canvas -->
+    <div class="bg-grid"></div>
+    <canvas class="canvas-particles" id="particles-bg"></canvas>
+    <div class="glow-orb a"></div>
+    <div class="glow-orb b"></div>
+
+    <div class="app-layout">
+        <div class="app-container">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar" id="app-sidebar">
+                <div class="sidebar-header">
+                    <div class="sidebar-logo">
+                        Alpha<span>Cure</span>
+                    </div>
+                </div>
+            
+            <div class="sidebar-body">
+                <ul class="nav-menu" id="nav-menu">
+                    <li>
+                        <a href="#museum" class="nav-item active" data-page="museum">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22h20"/><path d="M3 22V8l9-6 9 6v14"/><path d="M8 22v-4h8v4"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/></svg>
+                            <span>Science Museum</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#factory-sim" class="nav-item" data-page="factory-sim">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20V8l6-4v16"/><path d="M8 20V4l6-2v18"/><path d="M14 20V6l6-2v16"/><path d="M2 20h20"/></svg>
+                            <span>Factory Simulator</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#reverse-lab" class="nav-item" data-page="reverse-lab">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+                            <span>Reverse Lab</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#playground" class="nav-item" data-page="playground">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                            <span>Mutation Playground</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#disease-detective" class="nav-item" data-page="disease-detective">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <span>Disease Detective</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#body-map" class="nav-item" data-page="body-map">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="1.5"/><path d="M9 22v-5l-3-4 2-7h8l2 7-3 4v5"/></svg>
+                            <span>Human Protein Map</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#collection" class="nav-item" data-page="collection">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+                            <span>Protein Album</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#protein-world" class="nav-item" data-page="protein-world">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>Protein World</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#drug-lab" class="nav-item" data-page="drug-lab">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v2M14 2v2"/><path d="M6 22h12"/><path d="M12 14v-6"/><path d="M7 22c0-5 5-12 5-12s5 7 5 12"/></svg>
+                            <span>Drug Discovery Lab</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#comics" class="nav-item" data-page="comics">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                            <span>Science Comics</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#leaderboard" class="nav-item" data-page="leaderboard">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20V10"/><path d="M12 20V4"/><path d="M18 20v-6"/></svg>
+                            <span>Leaderboards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#news-hub" class="nav-item" data-page="news-hub">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9h4"/><path d="M10 7h4"/><path d="M10 11h4"/><path d="M10 15h4"/></svg>
+                            <span>Science News</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#career" class="nav-item" data-page="career">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                            <span>Career & Badges</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#nilay" class="nav-item" data-page="nilay">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                            <span>NILAY SINGH 🔥 3</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-item" data-page="about">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#journey" class="nav-item" data-page="journey">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 4-6"/></svg>
+                            <span>RPG Pathway</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#all-tools" class="nav-item" data-page="all-tools">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/></svg>
+                            <span>All Tools</span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <!-- User Profile Summary Widget -->
+                <div class="user-profile-summary">
+                    <div class="profile-username" id="sb-username">Curious Visitor</div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75rem; color:var(--text-muted); margin-top:4px;">
+                        <span id="sb-level-text">Level 0</span>
+                        <span id="sb-xp-text">0 XP</span>
+                    </div>
+                    <div class="profile-xp-bar">
+                        <div class="profile-xp-fill" id="sb-xp-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Main Application View Panels -->
+        <main class="main-content">
+            <!-- Museum Hall Page -->
+            <section class="page-view active" id="page-museum"></section>
+            
+            <!-- RPG Journey Page -->
+            <section class="page-view" id="page-journey"></section>
+            
+            <!-- Factory Simulator -->
+            <section class="page-view" id="page-factory-sim"></section>
+            
+            <!-- Reverse Engineering Lab -->
+            <section class="page-view" id="page-reverse-lab"></section>
+            
+            <!-- Mutation Playground -->
+            <section class="page-view" id="page-playground"></section>
+            
+            <!-- Disease Detective -->
+            <section class="page-view" id="page-disease-detective"></section>
+            
+            <!-- Human Body Protein Map -->
+            <section class="page-view" id="page-body-map"></section>
+            
+            <!-- Protein Card Collection Album -->
+            <section class="page-view" id="page-collection"></section>
+            
+            <!-- Protein World Taxonomy -->
+            <section class="page-view" id="page-protein-world"></section>
+            
+            <!-- Drug Discovery Lab -->
+            <section class="page-view" id="page-drug-lab"></section>
+            
+            <!-- Interactive Comic Stories -->
+            <section class="page-view" id="page-comics"></section>
+            
+            <!-- Leaderboard Rankings -->
+            <section class="page-view" id="page-leaderboard"></section>
+            
+            <!-- Scientific News Hub -->
+            <section class="page-view" id="page-news-hub"></section>
+            
+            <!-- Career and Badges -->
+            <section class="page-view" id="page-career"></section>
+            
+            <!-- Nilay Profile -->
+            <section class="page-view" id="page-nilay"></section>
+            
+            <!-- About ProteinVerse -->
+            <section class="page-view" id="page-about"></section>
+            
+            <!-- All Tools Overview -->
+            <section class="page-view" id="page-all-tools"></section>
+        </main>
+        </div>
+    </div>
+
+    <!-- Global Modal Dialog -->
+    <div class="modal-overlay" id="global-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close-trigger">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px;"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <h2 class="t-headline-md" id="modal-title" style="margin-bottom: var(--space-6); border-bottom: var(--border-width) solid var(--color-border); padding-bottom: var(--space-4);"></h2>
+            <div id="modal-body-content"></div>
+        </div>
+    </div>
+
+    <!-- PDB coordinate cache script (provides Hemoglobin coordinates instantly) -->
+    <script src="/model_data.js"></script>
+    
+    <!-- ES6 Script Orchestrator -->
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

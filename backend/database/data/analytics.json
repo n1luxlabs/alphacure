@@ -1,0 +1,1388 @@
+{
+    "protein_viewed": [
+        {
+            "timestamp": "2026-06-12T00:10:23.667804",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:37:19.041219",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:48:46.393881",
+            "details": {
+                "pdb_id": "2mxu",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:54:17.807088",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:17:36.763554",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:19:36.366790",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:20:25.517116",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:24:22.278977",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:24:23.659089",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:24:24.113900",
+            "details": {
+                "pdb_id": "1ivo",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:24:24.279298",
+            "details": {
+                "pdb_id": "1ivo",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:24:50.958185",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:25:53.070340",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:26:00.246051",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:27:41.134570",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:30:05.411083",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:33:20.658394",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:33:27.996933",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:34:38.855869",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:36:31.386235",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:49:39.975335",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:50:19.855758",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:51:36.228001",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:52:19.837592",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:53:13.463765",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:55:05.367773",
+            "details": {
+                "pdb_id": "1w7j",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T21:57:05.610995",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:01:16.607487",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:01:34.844503",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:01:35.415668",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:02:05.614318",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:04:12.924075",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:07:32.238601",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:08:08.732456",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:10:21.300721",
+            "details": {
+                "pdb_id": "1w7j",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:11:24.065297",
+            "details": {
+                "pdb_id": "1trz",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:12:12.455651",
+            "details": {
+                "pdb_id": "1trz",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:20:17.457723",
+            "details": {
+                "pdb_id": "1bkv",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:25:21.419524",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:29:44.104076",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:30:03.191401",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:56:41.065087",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:57:26.659488",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:59:05.065156",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:59:13.498090",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:59:21.899117",
+            "details": {
+                "pdb_id": "1trz",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:59:25.420556",
+            "details": {
+                "pdb_id": "1bkv",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:59:32.790750",
+            "details": {
+                "pdb_id": "1w7j",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:05:01.048629",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:06:13.219491",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:07:26.069826",
+            "details": {
+                "pdb_id": "1trz",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:07:32.932576",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:10:49.221547",
+            "details": {
+                "pdb_id": "2d1s",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:11:01.787369",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:22:57.596352",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:39:26.962294",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:40:17.046422",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:46:04.843406",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:47:04.656368",
+            "details": {
+                "pdb_id": "1ivo",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:47:12.808388",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:47:34.448429",
+            "details": {
+                "pdb_id": "2d1s",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:51:45.584968",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:52:45.010721",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:52:50.457229",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:52:54.516454",
+            "details": {
+                "pdb_id": "1w7j",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:53:00.370454",
+            "details": {
+                "pdb_id": "1trz",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:53:03.847563",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:53:21.186037",
+            "details": {
+                "pdb_id": "3tid",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:53:55.984529",
+            "details": {
+                "pdb_id": "2mxu",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:58:37.316147",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:02:24.949843",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:03:03.488095",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:04:08.768309",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:04:19.211930",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:13:59.867986",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:14:09.727302",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:14:33.328962",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:15:03.543968",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:15:42.399520",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:19:47.680723",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:33:44.010540",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:34:08.717783",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:49:37.404865",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T00:54:44.654296",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T19:10:53.815438",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T19:11:58.872258",
+            "details": {
+                "pdb_id": "1ivo",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T19:13:00.136046",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T19:17:34.202831",
+            "details": {
+                "pdb_id": "1bkv",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T19:34:12.124237",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T19:40:57.470281",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T21:33:03.733264",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T21:49:55.457925",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T22:20:40.250875",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T22:33:23.330910",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T22:44:38.545307",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T22:45:30.852238",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T22:46:35.751671",
+            "details": {
+                "pdb_id": "insulin",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T23:00:09.357820",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T23:23:21.429622",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T23:39:29.279443",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T23:41:29.958604",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T00:40:07.714657",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T00:40:52.172879",
+            "details": {
+                "pdb_id": "1ivo",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T00:41:08.252059",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T00:41:35.459038",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T00:41:39.685114",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T00:41:44.580111",
+            "details": {
+                "pdb_id": "2mxu",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:27:44.366430",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:32:03.046180",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:33:14.729775",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:34:32.938763",
+            "details": {
+                "pdb_id": "insulin",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:35:03.418855",
+            "details": {
+                "pdb_id": "2mxu",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:35:09.788634",
+            "details": {
+                "pdb_id": "1xq8",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:37:42.331246",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:40:20.113521",
+            "details": {
+                "pdb_id": "2d1s",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:40:30.477133",
+            "details": {
+                "pdb_id": "1rcx",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:40:41.838042",
+            "details": {
+                "pdb_id": "1gfl",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:40:54.893987",
+            "details": {
+                "pdb_id": "6vxx",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:41:28.524770",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:58:41.718415",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:02:59.347595",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:06:22.349357",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:07:04.358414",
+            "details": {
+                "pdb_id": "insulin",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:07:24.334270",
+            "details": {
+                "pdb_id": "1xq8",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:08:17.930057",
+            "details": {
+                "pdb_id": "1ivo",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:08:26.821551",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:08:36.795902",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:08:50.605084",
+            "details": {
+                "pdb_id": "1igy",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:09:07.282541",
+            "details": {
+                "pdb_id": "2d1s",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:19:19.116153",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:25:05.153107",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:29:52.656177",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:32:37.469288",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:40:59.030120",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:41:09.562220",
+            "details": {
+                "pdb_id": "5o3l",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:44:05.361587",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:48:24.974645",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:50:39.323965",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:52:30.891825",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:56:02.947826",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:56:21.525384",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:59:14.050744",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T08:50:35.317643",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T08:56:01.864488",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T08:56:39.637740",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T09:45:25.075534",
+            "details": {
+                "pdb_id": "6lu7",
+                "source": "PDB"
+            }
+        }
+    ],
+    "quiz_generated": [
+        {
+            "timestamp": "2026-06-12T00:14:44.101108",
+            "details": {
+                "user_id": "default_user",
+                "topic": "general biology",
+                "difficulty": "beginner"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:16:14.914506",
+            "details": {
+                "user_id": "default_user",
+                "topic": "general biology",
+                "difficulty": "beginner"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:18:00.269844",
+            "details": {
+                "user_id": "default_user",
+                "topic": "cells",
+                "difficulty": "beginner"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:10:12.788496",
+            "details": {
+                "user_id": "default_user",
+                "topic": "cells",
+                "difficulty": "beginner"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:26:50.577069",
+            "details": {
+                "user_id": "default_user",
+                "topic": "dna",
+                "difficulty": "easy"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:27:35.501981",
+            "details": {
+                "user_id": "default_user",
+                "topic": "cells",
+                "difficulty": "easy"
+            }
+        }
+    ],
+    "progress_updated": [
+        {
+            "timestamp": "2026-06-12T00:17:17.910082",
+            "details": {
+                "user_id": "default_user",
+                "current_level": 1,
+                "new_achievements": [
+                    "Protein Beginner"
+                ],
+                "quiz_scores": {
+                    "level_0": 2
+                }
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:19:05.604681",
+            "details": {
+                "user_id": "default_user",
+                "current_level": 2,
+                "new_achievements": [
+                    "Cell Explorer"
+                ],
+                "quiz_scores": {
+                    "level_1": 3
+                }
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:19:08.044738",
+            "details": {
+                "user_id": "default_user",
+                "current_level": 2,
+                "new_achievements": [
+                    "Cell Explorer"
+                ],
+                "quiz_scores": {
+                    "level_1": 3
+                }
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:42:51.608741",
+            "details": {
+                "user_id": "default_user",
+                "current_level": null,
+                "new_achievements": [
+                    "Disease Detective"
+                ],
+                "quiz_scores": {}
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:43:35.742596",
+            "details": {
+                "user_id": "default_user",
+                "current_level": null,
+                "new_achievements": [
+                    "Disease Detective"
+                ],
+                "quiz_scores": {}
+            }
+        }
+    ],
+    "mentor_chat": [
+        {
+            "timestamp": "2026-06-12T00:19:55.169140",
+            "details": {
+                "user_id": "default_user",
+                "level": 0,
+                "view": "journey",
+                "protein": "Hemoglobin"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:21:58.902020",
+            "details": {
+                "user_id": "default_user",
+                "level": 0,
+                "view": "journey",
+                "protein": "Hemoglobin"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:55:32.599252",
+            "details": {
+                "user_id": "default_user",
+                "level": 2,
+                "view": "factory-sim",
+                "protein": "Hemoglobin"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:56:06.020216",
+            "details": {
+                "user_id": "default_user",
+                "level": 2,
+                "view": "factory-sim",
+                "protein": "Hemoglobin"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:58:43.604640",
+            "details": {
+                "user_id": "default_user",
+                "level": 1,
+                "view": "museum",
+                "protein": "Hemoglobin"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:07:10.514592",
+            "details": {
+                "user_id": "default_user",
+                "level": 1,
+                "view": "museum",
+                "protein": "Hemoglobin"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:24:19.131665",
+            "details": {
+                "user_id": "default_user",
+                "level": 1,
+                "view": "journey",
+                "protein": "Hemoglobin"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:46:37.901815",
+            "details": {
+                "user_id": "default_user",
+                "level": 1,
+                "view": "news-hub",
+                "protein": "Hemoglobin"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T19:15:23.313691",
+            "details": {
+                "user_id": "default_user",
+                "level": 1,
+                "view": "body-map",
+                "protein": "Hemoglobin (Blood & Oxygen)"
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:21:49.478760",
+            "details": {
+                "user_id": "default_user",
+                "level": 2,
+                "view": "career",
+                "protein": "Hemoglobin"
+            }
+        }
+    ],
+    "profile_updated": [
+        {
+            "timestamp": "2026-06-12T00:38:56.054531",
+            "details": {
+                "user_id": "default_user",
+                "name": "NILAY SINGH",
+                "username": "n1lux",
+                "class_name": "Class 12"
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:42:10.283288",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:42:49.873574",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:43:34.711206",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:44:23.758833",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-12T00:44:26.639988",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-14T22:58:02.309712",
+            "details": {
+                "user_id": "default_user",
+                "name": "NILAY SINGH",
+                "username": "n1lux",
+                "class_name": "Class 12"
+            }
+        },
+        {
+            "timestamp": "2026-06-14T23:06:39.613433",
+            "details": {
+                "user_id": "default_user",
+                "name": "NILAY SINGH",
+                "username": "n1lux",
+                "class_name": "Class 12"
+            }
+        },
+        {
+            "timestamp": "2026-06-15T22:46:34.054742",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:08:51.194143",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-16T01:34:32.839494",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:07:02.207879",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-16T02:08:00.820164",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-16T08:56:41.946852",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        },
+        {
+            "timestamp": "2026-06-16T08:57:03.055718",
+            "details": {
+                "user_id": "default_user",
+                "name": null,
+                "username": null,
+                "class_name": null
+            }
+        }
+    ],
+    "certificate_issued": [
+        {
+            "timestamp": "2026-06-16T08:56:42.307094",
+            "details": {
+                "user_id": "default_user",
+                "cert_id": "PVX-8E51346B",
+                "name": "NILAY SINGH",
+                "score": 100
+            }
+        },
+        {
+            "timestamp": "2026-06-16T08:57:03.103444",
+            "details": {
+                "user_id": "default_user",
+                "cert_id": "PVX-801AC819",
+                "name": "NILAY SINGH",
+                "score": 100
+            }
+        }
+    ]
+}
